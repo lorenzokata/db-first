@@ -1,0 +1,13 @@
+table: cars
+
+cars_id: BIGINT PRIMARY_KEY AUTO_INCREMENT
+produttore: VARCHAR(30) NOT_NULL
+modello: VARCHAR(30) NOT_NULL
+anno: YEAR NOT_NULL
+numero_proprietari: TINYINT NOT_NULL
+km_percorsi: SMALLINT NOT_NULL
+carburante: VARCHAR(30) NOT_NULL
+posizione: VARCHAR(50)
+targa: VARCHAR(7)
+condizioni_veicolo: TEXT
+data_pubblicazione: DATE NOT_NULL
